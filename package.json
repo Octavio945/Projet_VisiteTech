@@ -1,0 +1,18 @@
+{
+  "name": "projet_visittechn",
+  "version": "1.0.0",
+  "description": "Le Système de Gestion de Visites Techniques est une plateforme web permettant aux différentes entités (hôpitaux, entreprises, administrations, etc.) de gérer efficacement les rendez-vous de visites techniques. Le système facilite la prise de rendez-vous par les visiteurs et offre un espace administrateur complet pour gérer ces rendez-vous.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm start", 
+    "client": "cd client && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
